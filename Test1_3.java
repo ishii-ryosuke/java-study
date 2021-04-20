@@ -5,7 +5,7 @@
   * 2つ以上の方が考えられる場合は、そのどちらでも構いません。
   *
   * ①true ②'駆' ③3.14 ④314159265853979L ⑤"ミナトの攻撃！敵に15ポイントのダメージを与えた。"
-  * */
+  */
 public class Test1_3 {
     public static void main(String[] args){
 
