@@ -10,11 +10,10 @@ public class Test4_4 {
 
         int input = new java.util.Scanner(System.in).nextInt();
 
-        for (int hitnumber : numbers) {
-            if(input == hitnumber) {
+        for (int hitNumber : numbers) {
+            if(input == hitNumber) {
                 System.out.println("アタリ！");
             }
         }
-
     }
 }
