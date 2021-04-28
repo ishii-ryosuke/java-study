@@ -1,3 +1,10 @@
+/**
+ * 【8-1~8-4】
+ * 聖職者「クレリック」を表現するクラス
+ * ・名前、HP、MPの追加
+ * ・「セルフエイド」
+ * ・「祈る」
+ */
 public class Cleric {
     String name;
     int hp;
