@@ -1,3 +1,7 @@
+/**
+ * 【10-3】
+ * Matangoクラスを継承したPoisonMatangoクラス
+ */
 public class PoisonMatango extends Matango {
     int poison = 5;
 
