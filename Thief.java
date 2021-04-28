@@ -1,3 +1,7 @@
+/**
+ * 【9-1】
+ * Thiefクラスのコンストラクタ
+ */
 public class Thief {
     String name;
     int hp;
