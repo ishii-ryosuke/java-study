@@ -1,3 +1,5 @@
+package kadai10;
+
 /**
  * 【10-3】
  * Matangoクラスを継承したPoisonMatangoクラス
