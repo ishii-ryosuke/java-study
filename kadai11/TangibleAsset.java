@@ -1,3 +1,5 @@
+package kadai11;
+
 /**
  * 【11-1~11-4】
  * 有形資産を管理する場合に有用な抽象クラス、TangibleAssetクラス

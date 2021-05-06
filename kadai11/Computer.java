@@ -1,3 +1,7 @@
+package kadai11;
+
+import kadai11.TangibleAsset;
+
 /**
  * 【11-1】
  * コンピュータのクラス、Computerクラス
