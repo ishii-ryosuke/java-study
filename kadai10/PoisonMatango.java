@@ -7,8 +7,8 @@ package kadai10;
 public class PoisonMatango extends Matango {
     int poison = 5;
 
-    public PoisonMatango(char sufffix) {
-        super(sufffix);
+    public PoisonMatango(char monsterSymbol) {
+        super(monsterSymbol);
     }
 
     public void attack(Hero h) {
