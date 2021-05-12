@@ -28,17 +28,17 @@ public class Account {
         return "¥" + this.getBalance() + "(口座番号：" + this.getAccountNumber() + ")";
     }
 
-    public boolean equals(Object o) {
-        if (this == o) {
+    public boolean equals(Object object) {
+        if (this == object) {
             return true;
         }
 
-        if (o instanceof Account) {
-            Account a = (Account) o;
-            String number1 = this.getAccountNumber().trim();
-            String number2 = a.getAccountNumber().trim();
+        if (object instanceof Account) {
+            Account account = (Account) object;
+            String accountNumber1 = this.getAccountNumber().trim();
+            String accountNumber2 = account.getAccountNumber().trim();
 
-            if (number1.equals(number2)) {
+            if (accountNumber1.equals(accountNumber2)) {
                 return true;
             }
         }
