@@ -47,7 +47,7 @@ public class Cleric {
         int healMp = second + new java.util.Random().nextInt(3);
         this.setMp(this.getMp() + healMp);
 
-        if(this.getMp() > Cleric.MAX_MP) {
+        if (this.getMp() > Cleric.MAX_MP) {
             this.setMp(Cleric.MAX_MP);
         }
 
