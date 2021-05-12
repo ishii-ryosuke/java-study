@@ -6,21 +6,21 @@ package kadai15;
  */
 public class Test15_1 {
     public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
 
         for (int i = 0 ; i < 100 ; i++) {
-            sb.append(i+1);
-            sb.append(",");
+            stringBuilder.append(i+1);
+            stringBuilder.append(",");
         }
 
-        String s = sb.toString();
+        String numberString = stringBuilder.toString();
 
-        System.out.println(s);
+        System.out.println(numberString);
 
-        String[] a = s.split(",");
+        String[] stringList = numberString.split(",");
 
         for (int i = 0 ; i < 10 ; i++) {
-            System.out.println(a[i]);
+            System.out.println(stringList[i]);
         }
     }
 }

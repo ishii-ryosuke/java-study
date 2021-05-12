@@ -9,10 +9,10 @@ import java.time.format.DateTimeFormatter;
  */
 public class Main2 {
     public static void main(String[] args) {
-        LocalDate date = LocalDate.now().plusDays(100);
+        LocalDate today = LocalDate.now().plusDays(100);
 
-        DateTimeFormatter fmt = DateTimeFormatter.ofPattern("西暦yyyy年MM月dd日");
+        DateTimeFormatter dateTimeFormat = DateTimeFormatter.ofPattern("西暦yyyy年MM月dd日");
 
-        System.out.println(date.format(fmt));
+        System.out.println(today.format(dateTimeFormat));
     }
 }

@@ -10,20 +10,20 @@ import java.util.Date;
  */
 public class Main {
     public static void main(String[] args) {
-        Date date = new Date();
-        //System.out.println(date);
+        Date today = new Date();
+        // System.out.println(date);
 
         Calendar calendar = Calendar.getInstance();
-        calendar.setTime(date);
+        calendar.setTime(today);
         int day = calendar.get(Calendar.DAY_OF_MONTH);
 
         day += 100;
         calendar.set(Calendar.DAY_OF_MONTH, day);
 
-        date = calendar.getTime();
-        //System.out.println(date);
+        today = calendar.getTime();
+        // System.out.println(date);
 
-        SimpleDateFormat f = new SimpleDateFormat("西暦yyyy年MM月dd日");
-        System.out.println(f.format(date));
+        SimpleDateFormat dateFormat = new SimpleDateFormat("西暦yyyy年MM月dd日");
+        System.out.println(dateFormat.format(today));
     }
 }

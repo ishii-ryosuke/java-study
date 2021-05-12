@@ -18,15 +18,15 @@ public class Test15_2 {
     }
 
     public static String fileNameMaker(String file, String folder) {
-        StringBuilder sb = new StringBuilder();
-        sb.append(folder);
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(folder);
 
         if (!folder.endsWith("¥")) {
-            sb.append("¥");
+            stringBuilder.append("¥");
         }
 
-        sb.append(file);
+        stringBuilder.append(file);
 
-        return sb.toString();
+        return stringBuilder.toString();
     }
 }
