@@ -27,7 +27,7 @@ public class Wizard {
 
     public void setMp(int mp) {
         if (mp < 0) {
-            throw new IllegalArgumentException("MPが０未満です。処理を中断します。");
+            throw new IllegalArgumentException("MPは0以上で設定してください。処理を中断します。");
         }
         this.mp = mp;
     }
@@ -38,7 +38,7 @@ public class Wizard {
 
     public void setName(String name) {
         if (name == null || name.length() < 3) {
-            throw new IllegalArgumentException("名前が短いです。処理を中断します。");
+            throw new IllegalArgumentException("名前は3文字以上で設定してください。処理を中断します。");
         }
         this.name = name;
     }
@@ -49,7 +49,7 @@ public class Wizard {
 
     public void setWand(Wand wand) {
         if (wand == null) {
-            throw new IllegalArgumentException("杖が設定されていません。処理を中断します。");
+            throw new IllegalArgumentException("杖が設定されていません。魔法使いの使う杖を設定してください。処理を中断します。");
         }
         this.wand = wand;
     }
