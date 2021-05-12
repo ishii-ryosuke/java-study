@@ -13,13 +13,13 @@ public class Main {
         wizard.setMp(10);
         System.out.println(wizard.getMp());
 
-        //wizard.setMp(-100);
+        // wizard.setMp(-100);
         System.out.println(wizard.getMp());
 
         wizard.setName("魔法使い");
         System.out.println(wizard.getName());
 
-        //wizard.setName("魔");
+        // wizard.setName("魔");
         System.out.println(wizard.getName());
 
         Wand wand = new Wand();
@@ -27,13 +27,13 @@ public class Main {
         wand.setName("魔法の杖");
         System.out.println(wand.getName());
 
-        //wand.setName("杖");
+        // wand.setName("杖");
         System.out.println(wand.getName());
 
         wand.setPower(50);
         System.out.println(wand.getPower());
 
-        //wand.setPower(0);
+        // wand.setPower(0);
         System.out.println(wand.getPower());
 
         wizard.setWand(wand);
@@ -41,7 +41,7 @@ public class Main {
 
         Wand wandnull = null;
 
-        //wizard.setWand(wandnull);
+        // wizard.setWand(wandnull);
         System.out.println(wizard.getWand().getName());
 
         Hero hero = new Hero();
