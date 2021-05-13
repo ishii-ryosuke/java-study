@@ -8,7 +8,7 @@ public class Test15_1 {
     public static void main(String[] args) {
         StringBuilder stringBuilder = new StringBuilder();
 
-        for (int i = 0 ; i < 100 ; i++) {
+        for (int i = 0; i < 100; i++) {
             stringBuilder.append(i+1);
             stringBuilder.append(",");
         }
@@ -19,7 +19,7 @@ public class Test15_1 {
 
         String[] stringList = numberString.split(",");
 
-        for (int i = 0 ; i < 10 ; i++) {
+        for (int i = 0; i < 10; i++) {
             System.out.println(stringList[i]);
         }
     }
