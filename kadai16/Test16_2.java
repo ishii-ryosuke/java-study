@@ -11,7 +11,7 @@ public class Test16_2 {
         Hero heroSaitou = new Hero("斎藤");
         Hero heroSuzuki = new Hero("鈴木");
 
-        ArrayList<Hero> heroArrayList = new ArrayList<Hero>();
+        ArrayList<Hero> heroArrayList = new ArrayList<>();
         heroArrayList.add(heroSaitou);
         heroArrayList.add(heroSuzuki);
 

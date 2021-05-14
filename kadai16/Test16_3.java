@@ -12,7 +12,7 @@ public class Test16_3 {
         Hero heroSaitou = new Hero("斎藤");
         Hero heroSuzuki = new Hero("鈴木");
 
-        Map<Hero, Integer> heroKillCountMap = new HashMap<Hero, Integer>();
+        Map<Hero, Integer> heroKillCountMap = new HashMap<>();
         heroKillCountMap.put(heroSaitou, 3);
         heroKillCountMap.put(heroSuzuki, 7);
 
