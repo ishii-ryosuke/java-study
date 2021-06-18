@@ -14,6 +14,7 @@ public class Main {
             outputMessage(year);
         }
     }
+
     public static void outputMessage(int year) {
         Zodiac getZodiac = new Zodiac();
         System.out.println(year + "の干支は" + getZodiac.getNameByYear(year) + "です。");
