@@ -35,10 +35,7 @@ public class Sort {
     }
 
     public static boolean numberListCheck(String numberString) {
-        if (numberString.indexOf(",") != -1) {
-            return true;
-        }
-        return false;
+        return numberString.indexOf(",") != -1;
     }
 
     public static void changeStringListToIntegerList(String numberString, int[] inputNumbers) {
