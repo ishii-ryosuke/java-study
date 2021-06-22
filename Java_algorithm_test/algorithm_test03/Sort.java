@@ -23,11 +23,11 @@ public class Sort {
 
     public static boolean numberSwapped(int[] numbers, int index) {
         boolean swappedFlag = false;
-        for (int j = 0; j < numbers.length - index - 1; j++) {
-            if (numbers[j] > numbers[j + 1]) {
-                int temp = numbers[j];
-                numbers[j] = numbers[j + 1];
-                numbers[j + 1] = temp;
+        for (int i = 0; i < numbers.length - index - 1; i++) {
+            if (numbers[i] > numbers[i + 1]) {
+                int temp = numbers[i];
+                numbers[i] = numbers[i + 1];
+                numbers[i + 1] = temp;
                 swappedFlag = true;
             }
         }
