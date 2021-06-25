@@ -18,15 +18,15 @@ public class DiamondPrinter {
      * @return 指定されたスペース数とドット数の文字列
      */
     private StringBuilder createLine(int space, int dot) {
-        StringBuilder diamondLine = new StringBuilder();
         StringBuilder spaceString = new StringBuilder();
-        StringBuilder dotString = new StringBuilder();
         for (int i = 0; i < space; i++) {
             spaceString.append(" ");
         }
+        StringBuilder dotString = new StringBuilder();
         for (int i = 0; i < dot; i++) {
             dotString.append("*");
         }
+        StringBuilder diamondLine = new StringBuilder();
         diamondLine.append(spaceString);
         diamondLine.append(dotString);
         diamondLine.append(spaceString);
